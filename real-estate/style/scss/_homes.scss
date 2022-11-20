@@ -1,0 +1,139 @@
+.page-header-link {
+  &:hover {
+    color: var(--asoop-color-3);
+  }
+  color: var(--asoop-color-4);
+}
+
+.page-header {
+  background-color: var(--asoop-color-1);
+  background-image: url("./../../image/20220301100749.svg");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 550px;
+}
+
+.span-2 {
+  background-color: var(--asoop-color-3);
+}
+
+* {
+  font-family: Montserrat;
+}
+
+.home-list {
+  color: var(--asoop-color-4);
+}
+
+.home-list-1 {
+  background: radial-gradient(circle, var(--asoop-color-1) 39%, var(--asoop-color-2) 97%);
+}
+
+.home-list-link {
+  color: var(--asoop-color-3);
+
+  &:hover {
+    color: var(--asoop-color-2);
+  }
+}
+
+.section {
+  background-color: var(--asoop-color-4);
+}
+
+.home-list-2 {
+  background-color: var(--asoop-color-4);
+  color: var(--asoop-color-1);
+  height: 50px;
+  right: 0;
+  top: 0;
+  transform: translate(-25%, 25%);
+  width: 50px;
+}
+
+.span {
+  background-color: var(--asoop-color-2);
+}
+
+.home-list-list {
+  a {
+    color: var(--asoop-color-4);
+
+    &:hover {
+      color: var(--asoop-color-2);
+    }
+  }
+}
+
+.home-list-3 {
+  background-color: var(--asoop-color-4);
+  color: var(--asoop-color-1);
+  font-size: 12px;
+  left: -44px;
+  top: 45px;
+  transform: rotate(-45deg);
+  width: 220px;
+}
+
+.home-list-undefined {
+  --color: var(--asoop-color-4);
+  --hover: var(--asoop-color-1);
+
+  &:hover {
+    color: var(--asoop-color-4);
+  }
+}
+
+.header-link {
+  &:hover {
+    color: var(--asoop-color-3);
+  }
+}
+
+.button-one {
+  --color: var(--asoop-color-2);
+  --hover: var(--asoop-color-1);
+
+  &:hover {
+    color: var(--asoop-color-4);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .page-header {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-header {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .page-header {
+    background-size: auto;
+    height: 500px;
+  }
+}
+
+img {
+  transition: all .2s ease 0s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+select {
+  -moz-appearance: none;
+}
+
+.form-select {
+  &:focus {
+    border-color: var(--asoop-color-2) !important;
+    box-shadow: none;
+  }
+}

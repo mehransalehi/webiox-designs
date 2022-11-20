@@ -1,0 +1,75 @@
+.page-header {
+  background-color: var(--asoop-color-1);
+  background-image: url("./../../image/20220301093827.svg");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 550px;
+}
+
+* {
+  font-family: Montserrat;
+}
+
+.button-one {
+  --color: var(--asoop-color-4);
+  --hover: var(--asoop-color-1);
+
+  &:hover {
+    color: var(--asoop-color-4);
+  }
+}
+
+.section {
+  height: 300px;
+}
+
+.section-1 {
+  background-image: url("./../../image/20220115092517.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header-link {
+  &:hover {
+    color: var(--asoop-color-3);
+  }
+}
+
+.page-header-link {
+  &:hover {
+    color: var(--asoop-color-3);
+  }
+  color: var(--asoop-color-4);
+}
+
+@media screen and (max-width: 991px) {
+  .page-header {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-header {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .page-header {
+    background-size: auto;
+    height: 500px;
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: var(--asoop-color-2) !important;
+    box-shadow: none;
+  }
+}
+
+.form-label {
+  color: var(--asoop-color-4) !important;
+}

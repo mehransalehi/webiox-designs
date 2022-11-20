@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   data-name="Layer 1"
+   width="175"
+   height="58"
+   viewBox="0 0 175 58"
+   version="1.1"
+   id="svg104"
+   sodipodi:docname="cloud1.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata110">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>coming home</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs108" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     id="namedview106"
+     showgrid="false"
+     inkscape:zoom="0.97449428"
+     inkscape:cx="598.61453"
+     inkscape:cy="289.39016"
+     inkscape:window-x="1080"
+     inkscape:window-y="222"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg104" />
+  <title
+     id="title2">coming home</title>
+  <path
+     d="m 84.251256,51.599264 c -46.27672,0.21329 -83.94415039,0.897 -83.94415039,0.897 0,0 44.77365039,-59.30728 83.77623039,-37.33436 39.002574,21.97292 83.806624,36.562 83.806624,36.562 0,0 -37.36198,-0.33793 -83.638704,-0.12464 z"
+     id="path94"
+     inkscape:connector-curvature="0"
+     style="fill:#f2f2f2" />
+</svg>

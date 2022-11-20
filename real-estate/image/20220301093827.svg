@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="visual"
+   viewBox="0 0 900 450"
+   width="900"
+   height="450"
+   version="1.1"
+   sodipodi:docname="stacked-steps-haikei (7).svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="1.741054"
+     inkscape:cx="398.43832"
+     inkscape:cy="207.70155"
+     inkscape:window-x="1080"
+     inkscape:window-y="222"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="visual" />
+  <g
+     id="g839">
+    <path
+       style="fill:#bcece0"
+       inkscape:connector-curvature="0"
+       id="path2"
+       d="m 0,230 h 39 v 72 h 39 v -18 h 39 v -9 h 40 v -23 h 39 v 41 h 39 v -27 h 39 v -45 h 39 v 49 h 39 v -4 h 39 v 13 h 39 v -13 h 40 v 36 h 39 v -41 h 39 v 32 h 39 v -18 h 39 v 36 h 39 v -63 h 39 v 18 h 39 v 22 h 40 v 36 h 39 v -99 h 39 v 14 h 39 v 0 -141 0 h -39 v 0 h -39 v 0 h -39 v 0 h -40 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -40 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -40 v 0 H 78 v 0 H 39 v 0 H 0 Z" />
+    <path
+       style="fill:#def6ef"
+       inkscape:connector-curvature="0"
+       id="path4"
+       d="m 0,412 h 39 v 4 h 39 v -4 h 39 v 36 h 40 v -5 h 39 v 18 h 39 v -40 h 39 v 0 h 39 v 54 h 39 v -54 h 39 v 49 h 39 v -31 h 40 v -14 h 39 v -13 h 39 v 13 h 39 v -4 h 39 v 18 h 39 v 4 h 39 v 32 h 39 v 0 h 40 v 0 h 39 v -36 h 39 v 36 h 39 v -18 -218 0 h -39 v -14 h -39 v 99 h -39 v -36 h -40 v -22 h -39 v -18 h -39 v 63 h -39 v -36 h -39 v 18 h -39 v -32 h -39 v 41 h -39 v -36 h -40 v 13 h -39 v -13 h -39 v 4 h -39 v -49 h -39 v 45 h -39 v 27 h -39 v -41 h -39 v 23 h -40 v 9 H 78 v 18 H 39 V 230 H 0 Z" />
+    <path
+       id="path6"
+       fill="#ffffff"
+       d="M0 451L39 451L39 451L78 451L78 451L117 451L117 451L157 451L157 451L196 451L196 451L235 451L235 451L274 451L274 451L313 451L313 451L352 451L352 451L391 451L391 451L430 451L430 451L470 451L470 451L509 451L509 451L548 451L548 451L587 451L587 451L626 451L626 451L665 451L665 451L704 451L704 451L743 451L743 451L783 451L783 451L822 451L822 451L861 451L861 451L900 451L900 451L900 355L900 373L861 373L861 337L822 337L822 373L783 373L783 373L743 373L743 373L704 373L704 341L665 341L665 337L626 337L626 319L587 319L587 323L548 323L548 310L509 310L509 323L470 323L470 337L430 337L430 368L391 368L391 319L352 319L352 373L313 373L313 319L274 319L274 319L235 319L235 359L196 359L196 341L157 341L157 346L117 346L117 310L78 310L78 314L39 314L39 310L0 310Z" />
+    <path
+       style="fill:#bcece0"
+       inkscape:connector-curvature="0"
+       id="path2-5"
+       d="m 0.32361,130.36174 h 39 v 72 h 39 v -18 h 39 v -9 h 40 v -23 h 39 v 41 h 39 v -27 h 39 v -45 h 39 v 49 h 39 v -4 h 39 v 13 h 39 v -13 h 40 v 36 h 39 v -41 h 39 v 32 h 39 v -18 h 39 v 36 h 39 v -63 h 39 v 18 h 39 v 22 h 40 v 36 h 39 v -99 h 39 v 14 h 38.99999 v 0 -141 0 h -38.99999 v 0 h -39 v 0 h -39 v 0 h -40 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -40 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -39 v 0 h -40 v 0 h -39 v 0 h -39 v 0 h -39 z" />
+  </g>
+</svg>

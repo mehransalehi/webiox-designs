@@ -1,0 +1,39 @@
+:root {
+  --asoop-color-1: rgb(188, 236, 224);
+  --asoop-color-2: rgb(54, 238, 224);
+  --asoop-color-3: rgb(246, 82, 160);
+  --asoop-color-4: rgb(76, 82, 112);
+}
+ol, ul {
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+.div--4 {
+  background-color: var(--asoop-color-3);
+}
+.div--1 {
+  background-color: var(--asoop-color-1);
+}
+.div--3 {
+  background-color: var(--asoop-color-4);
+}
+.div--2 {
+  background-color: var(--asoop-color-3);
+}
+.div {
+  background-color: var(--asoop-color-2);
+}
+.span {
+  background-color: var(--asoop-color-4);
+}

@@ -1,0 +1,15 @@
+.header-list li { color:var(--asoop-color-4); }
+.header-list li:hover { color:var(--asoop-color-3); }
+.header-list-2 li { color:var(--asoop-color-4); }
+.header-list-2 li:hover { color:var(--asoop-color-3); }
+.header { z-index: 10; background-color:var(--asoop-color-1); }
+.header-list-1 li:hover { color:var(--asoop-color-3); }
+.header-list-1 li { color:var(--asoop-color-4); }
+* { font-family: Work Sans; }
+.ul-1 li { color:var(--asoop-color-4); }
+.ul-1 li:hover { color:var(--asoop-color-3); }
+@media screen and (min-width: 1200px) {}
+@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 991px) {}
+@media screen and (max-width: 767px) {}
+@media screen and (max-width: 575px) {}
