@@ -1,0 +1,360 @@
+.ul a {
+  color: black;
+}
+.ul li {
+  margin-right: 9px;
+}
+.ul {
+  font-size: 28px;
+}
+ol, ul {
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+.h1 {
+  font-size: 21px;
+}
+@media screen and (min-width: 992px) {
+     .asoop-navbar-two {
+       display: flex;
+       width: 100%;
+       height: 100px;
+       text-align: right;
+       border-bottom: 2px solid black;
+       align-items: center;
+       z-index: 1099;
+     
+   }
+     .asoop-navbar-two ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+     
+   }
+     .asoop-navbar-two ul li {
+       padding: 20px;
+     
+   }
+     .asoop-navbar-two .logo {
+       display: flex;
+       height: 100px;
+       flex-basis: 200px;
+     
+   }
+     .asoop-navbar-two-menu {
+       margin-left: auto !important;
+     
+   }
+     .asoop-navbar-two-menu > ul {
+       display: flex;
+       flex-direction: row-reverse;
+     
+   }
+     .asoop-navbar-two ul a {
+       text-shadow: none;
+       font-weight: 400;
+       color: #000;
+       text-decoration: none;
+     
+   }
+     .asoop-navbar-two .logo img {
+       max-width: 100%;
+       max-height: 100%;
+     
+   }
+     .asoop-navbar-two-menu .menu-item-has-children {
+       position: relative;
+     
+   }
+     .asoop-navbar-two-menu > ul > .menu-item-has-children > a::before {
+       position: relative;
+       font-style: normal;
+       font-variant: normal;
+       text-rendering: auto;
+       line-height: 1;
+       content: "\f107";
+       font-size: 16px;
+       font-weight: 900;
+       font-family: "Font Awesome 5 Free";
+       margin-right: 10px;
+     
+   }
+     .asoop-navbar-two-menu .menu-item-has-children > ul .menu-item-has-children > a::after {
+       position: absolute;
+       font-style: normal;
+       font-variant: normal;
+       text-rendering: auto;
+       line-height: 1;
+       content: "\f104";
+       font-size: 16px;
+       font-weight: 900;
+       left: 15px;
+       font-family: "Font Awesome 5 Free";
+       top: 50%;
+       transform: translate(0, -50%);
+     
+   }
+     .asoop-navbar-two-menu > ul > .menu-item-has-children > ul {
+       position: absolute;
+       margin-top: 30px;
+       width: 200px;
+       background-color: white;
+       box-shadow: 1px -2px 5px #d0cdcd;
+       left: 50%;
+       transform: translateX(-50%) translateY(6px);
+       visibility: hidden;
+       opacity: 0;
+       transition: 0.2s;
+     
+   }
+     .asoop-navbar-two-menu > ul > .menu-item-has-children .menu-item-has-children > ul {
+       position: absolute;
+       width: 200px;
+       background-color: white;
+       box-shadow: 1px -2px 5px #d0cdcd;
+       visibility: hidden;
+       opacity: 0;
+       transition: 0.2s;
+       right: 102%;
+     
+   }
+     .asoop-navbar-two-menu > ul > .menu-item-has-children:hover > ul {
+       opacity: 1;
+       visibility: visible;
+       margin-top: 20px;
+     
+   }
+     .asoop-navbar-two-menu > ul > .menu-item-has-children .menu-item-has-children:hover > ul {
+       opacity: 1;
+       visibility: visible;
+       margin-top: -30px;
+     
+   }
+     .asoop-navbar-two .menu-item-has-children > ul li {
+       display: block;
+       clear: both;
+       width: 100%;
+       padding: 12px 0px;
+     
+   }
+     .asoop-navbar-two .menu-item-has-children > ul li a {
+       width: 100%;
+       padding: 10px 20px;
+     
+   }
+     .asoop-navbar-two-icon {
+       display: none !important;
+       margin: 20px;
+       font-size: 30px;
+       color: black;
+     
+   }
+     .asoop-navbar-two-close-icon {
+       display: none;
+     
+   }
+     .asoop-navbar-two.left {
+       text-align: left;
+     
+   }
+     .asoop-navbar-two-menu.left > ul {
+       display: flex;
+       flex-direction: row;
+     
+   }
+     .asoop-navbar-two-menu.left > ul > .menu-item-has-children > a::before {
+       content: "";
+       margin-right: 0;
+     
+   }
+     .asoop-navbar-two-menu.left > ul > .menu-item-has-children > a::after {
+       position: relative;
+       font-style: normal;
+       font-variant: normal;
+       text-rendering: auto;
+       line-height: 1;
+       content: "\f107";
+       font-size: 16px;
+       font-weight: 900;
+       font-family: "Font Awesome 5 Free";
+       margin-left: 10px;
+     
+   }
+     .asoop-navbar-two-menu.left .menu-item-has-children > ul .menu-item-has-children > a::after {
+       line-height: 1;
+       content: "";
+       font-size: 0;
+       right: 0;
+     
+   }
+     .asoop-navbar-two-menu.left .menu-item-has-children > ul .menu-item-has-children > a::before {
+       position: absolute;
+       font-style: normal;
+       font-variant: normal;
+       text-rendering: auto;
+       line-height: 1;
+       content: "\f105";
+       font-size: 16px;
+       font-weight: 900;
+       right: 15px;
+       font-family: "Font Awesome 5 Free";
+       top: 50%;
+       transform: translate(0, -50%);
+     
+   }
+     .asoop-navbar-two-menu.left > ul > .menu-item-has-children .menu-item-has-children > ul {
+       left: 102%;
+     
+   }
+}
+@media screen and (max-width: 991px) {
+     .asoop-navbar-two {
+       display: flex;
+       height: 80px;
+       padding: 0 20px;
+       z-index: 1099;
+     
+   }
+     .asoop-navbar-two-menu {
+       position: absolute;
+       display: flex;
+       flex-direction: column;
+       width: 0;
+       min-height: 100%;
+       height: auto;
+       background: white;
+       box-shadow: 1px -2px 5px #d0cdcd;
+       right: 0;
+       transition: 0.1s;
+     
+   }
+     .asoop-navbar-two-menu > * {
+       visibility: hidden;
+       opacity: 0;
+     
+   }
+     .asoop-navbar-two-menu.show {
+       width: 80%;
+     
+   }
+     .asoop-navbar-two-menu.show > * {
+       visibility: visible;
+       opacity: 1;
+     
+   }
+     .asoop-navbar-two .logo {
+       margin-right: auto !important;
+     
+   }
+     .asoop-navbar-two .logo img {
+       max-width: 100%;
+       max-height: 100%;
+     
+   }
+     .asoop-navbar-two-icon {
+       font-size: 26px;
+       color: black;
+     
+   }
+     .asoop-navbar-two-close-icon {
+       position: relative;
+       margin: 20px 20px 20px 20px;
+       font-size: 26px;
+       color: black;
+       width: 18px;
+     
+   }
+     .asoop-navbar-two ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+     
+   }
+     .asoop-navbar-two-menu > ul {
+       padding: 0 20px;
+     
+   }
+     .asoop-navbar-two ul li {
+       padding: 10px 0px;
+     
+   }
+     .asoop-navbar-two ul a {
+       text-shadow: none;
+       font-weight: 400;
+       color: #000;
+       text-decoration: none;
+       width: 100%;
+       display: block;
+       text-align: right;
+     
+   }
+     .asoop-navbar-two-menu .menu-item-has-children {
+       position: relative;
+     
+   }
+     .asoop-navbar-two-menu .menu-item-has-children > a::after {
+       position: absolute;
+       font-style: normal;
+       font-variant: normal;
+       text-rendering: auto;
+       line-height: 1;
+       content: "\f104";
+       font-size: 16px;
+       font-weight: 900;
+       left: 0px;
+       font-family: "Font Awesome 5 Free";
+     
+   }
+     .asoop-navbar-two-menu .menu-item-has-children > ul {
+       position: relative;
+       background-color: white;
+       transition: all 0.25s ease-in;
+       max-height: 0;
+       visibility: hidden;
+       opacity: 0;
+     
+   }
+     .asoop-navbar-two-menu .menu-item-has-children > ul.show {
+       max-height: 500px;
+       visibility: visible;
+       opacity: 1;
+     
+   }
+     .asoop-navbar-two.left ul a {
+       text-align: left;
+     
+   }
+     .asoop-navbar-two-menu.left .asoop-navbar-two-close-icon {
+       margin: 20px 20px 20px auto;
+       right: 0;
+     
+   }
+     .asoop-navbar-two-menu.left .menu-item-has-children > a::after {
+       content: "";
+     
+   }
+     .asoop-navbar-two-menu.left .menu-item-has-children > a::before {
+       position: absolute;
+       font-style: normal;
+       font-variant: normal;
+       text-rendering: auto;
+       line-height: 1;
+       content: "\f105";
+       font-size: 16px;
+       font-weight: 900;
+       right: 0px;
+       font-family: "Font Awesome 5 Free";
+     
+   }
+}
