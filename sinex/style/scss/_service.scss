@@ -1,0 +1,56 @@
+$dodgerblue_0092ff: #0092ff;
+
+.row {
+  color: var(--asoop-color-0);
+}
+
+.p {
+  color: var(--asoop-color-4);
+}
+
+.div {
+  background: linear-gradient(309deg, var(--asoop-color-1) 40%, var(--asoop-color-2) 75%);
+  border-color: rgba(243, 243, 243, .08) !important;
+  height: 300px;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+}
+
+.img--1 {
+  height: 230px;
+  opacity: .23;
+  right: 10%;
+}
+
+.div--1 {
+  background: linear-gradient(309deg, var(--asoop-color-4) 40%, rgba(255, 172, 6, .59) 75%);
+  border-color: rgba(243, 243, 243, .08) !important;
+  height: 300px;
+}
+
+.div--2 {
+  background: linear-gradient(309deg, var(--asoop-color-5) 40%, rgba(21, 193, 194, .44) 75%);
+  border-color: rgba(243, 243, 243, .08) !important;
+  height: 300px;
+}
+
+.div--3 {
+  background: linear-gradient(309deg, var(--asoop-color-3) 40%, rgba(254, 102, 63, .65) 75%);
+  border-color: rgba(243, 243, 243, .08) !important;
+  height: 300px;
+}
+
+.div--4 {
+  background: linear-gradient(309deg, var(--asoop-color-0) 40%, rgba(74, 87, 100, .69) 75%);
+  border-color: rgba(243, 243, 243, .08) !important;
+  height: 300px;
+}
+
+.div--5 {
+  background: linear-gradient(309deg, $dodgerblue_0092ff 40%, rgba(0, 146, 255, .7) 75%);
+  border-color: rgba(243, 243, 243, .08) !important;
+  height: 300px;
+}

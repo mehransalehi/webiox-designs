@@ -1,0 +1,399 @@
+:root {
+  --asoop-color-1: rgb(56, 124, 224);
+  --asoop-color-2: rgb(76, 110, 152);
+  --asoop-color-3: rgb(195, 175, 59);
+  --asoop-color-4: rgb(151, 57, 133);
+  --asoop-color-5: rgb(32, 8, 56);
+}
+ol, ul {
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+.asoop-navbar-three {
+  height: 100px;
+  position: relative;
+  border-bottom: 1px solid gray;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.asoop-navbar-three > ul {
+  display: flex;
+  margin-bottom: 0;
+  width: 25%;
+}
+.asoop-navbar-three > ul > li {
+  overflow: hidden;
+}
+.asoop-navbar-three .logo {
+  display: flex;
+  align-items: center;
+}
+.asoop-navbar-three .logo img {
+  height: 60px;
+}
+.asoop-navbar-three a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 0.8em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.asoop-navbar-three .asoop-navbar-three-bars {
+  display: none;
+}
+.asoop-navbar-three .top-down-effect a:before,.asoop-navbar-three .top-down-effect a:after {
+  position: absolute;
+}
+.asoop-navbar-three .top-down-effect a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #e67e22;
+}
+.asoop-navbar-three .top-down-effect a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: red;
+  bottom: 100%;
+  white-space: nowrap;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.asoop-navbar-three .top-down-effect li:hover a,.asoop-navbar-three .top-down-effect .current a {
+  transform: translateY(100%);
+}
+.asoop-navbar-three .left-right-effect a:before,.asoop-navbar-three .left-right-effect a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.asoop-navbar-three .left-right-effect a:before {
+  right: 100%;
+  display: block;
+  width: 3px;
+  height: 100%;
+  content: "";
+  background-color: #f39c12;
+}
+.asoop-navbar-three .left-right-effect a:after {
+  padding: 0 0.5em 0 0.2em;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.asoop-navbar-three .left-right-effect li:hover a,.asoop-navbar-three .left-right-effect .current a {
+  transform: translateX(100%);
+}
+.asoop-navbar-three .down-top-effect a:before,.asoop-navbar-three .down-top-effect a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.asoop-navbar-three .down-top-effect a:before {
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #c0392b;
+}
+.asoop-navbar-three .down-top-effect a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.asoop-navbar-three .down-top-effect li:hover a,.asoop-navbar-three .down-top-effect .current a {
+  transform: translateY(-100%);
+}
+.asoop-navbar-three .hor-border-effect a:before,.asoop-navbar-three .hor-border-effect a:after {
+  height: 3px;
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: orange;
+  width: 0;
+}
+.asoop-navbar-three .hor-border-effect a:before {
+  top: 0;
+  left: 0;
+}
+.asoop-navbar-three .hor-border-effect a:after {
+  bottom: 0;
+  right: 0;
+}
+.asoop-navbar-three .hor-border-effect a:hover,.asoop-navbar-three .hor-border-effect .current a {
+  color: orange;
+}
+.asoop-navbar-three .hor-border-effect a:hover:before,.asoop-navbar-three .hor-border-effect .current a:before,.asoop-navbar-three .hor-border-effect a:hover:after,.asoop-navbar-three .hor-border-effect .current a:after {
+  width: 100%;
+}
+.asoop-navbar-three .hor-expand-effect a:before {
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  border-top: 3px solid #34495e;
+  border-bottom: 3px solid #34495e;
+}
+.asoop-navbar-three .hor-expand-effect a:hover,.asoop-navbar-three .hor-expand-effect .current a {
+  color: #ffffff;
+}
+.asoop-navbar-three .hor-expand-effect a:hover:before,.asoop-navbar-three .hor-expand-effect .current a:before {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+.asoop-navbar-three .vert-expand-effect a:before {
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  left: 15%;
+  right: 15%;
+  top: 0;
+  bottom: 0;
+  border-left: 3px solid #27ae60;
+  border-right: 3px solid #27ae60;
+}
+.asoop-navbar-three .vert-expand-effect a:hover,.asoop-navbar-three .vert-expand-effect .current a {
+  color: #ffffff;
+}
+.asoop-navbar-three .vert-expand-effect a:hover:before,.asoop-navbar-three .vert-expand-effect .current a:before {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+.asoop-navbar-three .angle-effect a:before,.asoop-navbar-three .angle-effect a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+.asoop-navbar-three .angle-effect a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #c0392b;
+  border-top: 3px solid #c0392b;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+.asoop-navbar-three .angle-effect a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #c0392b;
+  border-bottom: 3px solid #c0392b;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+.asoop-navbar-three .angle-effect a:hover,.asoop-navbar-three .angle-effect .current a {
+  color: #ffffff;
+}
+.asoop-navbar-three .angle-effect a:hover:before,.asoop-navbar-three .angle-effect .current a:before,.asoop-navbar-three .angle-effect a:hover:after,.asoop-navbar-three .angle-effect .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+.asoop-navbar-three .draw-top-effect a:before,.asoop-navbar-three .draw-top-effect a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.asoop-navbar-three .draw-top-effect a:before {
+  top: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #c0392b;
+}
+.asoop-navbar-three .draw-top-effect a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.asoop-navbar-three .draw-top-effect a:hover:before,.asoop-navbar-three .draw-top-effect .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.asoop-navbar-three .draw-top-effect a:hover:after,.asoop-navbar-three .draw-top-effect .current a:after {
+  max-width: 100%;
+}
+.asoop-navbar-three .draw-bottom-effect a:before,.asoop-navbar-three .draw-bottom-effect a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.asoop-navbar-three .draw-bottom-effect a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #2980b9;
+}
+.asoop-navbar-three .draw-bottom-effect a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.asoop-navbar-three .draw-bottom-effect a:hover:before,.asoop-navbar-three .draw-bottom-effect .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.asoop-navbar-three .draw-bottom-effect a:hover:after,.asoop-navbar-three .draw-bottom-effect .current a:after {
+  max-width: 100%;
+}
+.asoop-navbar-three .draw-circle-effect a:before {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.asoop-navbar-three .draw-circle-effect a:before {
+  bottom: 0;
+  display: block;
+  height: 0;
+  width: 100%;
+  content: "";
+  transform: translate(0, 0);
+  background-color: #2980b9;
+  border-radius: 0 0 50% 50%;
+}
+.asoop-navbar-three .draw-circle-effect a:hover:before,.asoop-navbar-three .draw-circle-effect .current a:before {
+  opacity: 1;
+  height: 50%;
+}
+.asoop-navbar-three .draw-circle-effect a:hover:after,.asoop-navbar-three .draw-circle-effect .current a:after {
+  max-height: 50%;
+}
+.div--1 {
+  border-color: var(--asoop-color-1) !important;
+  color: var(--asoop-color-4);
+  height: 50px;
+  width: 50px;
+}
+.header-paragraph--4 {
+  font-size: 44px;
+}
+.header-paragraph--1 {
+  font-size: 80px;
+}
+.header {
+  background: linear-gradient(325deg, var(--asoop-color-5) 56%, #470d3c 100%);
+}
+* {
+  font-family: Playfair Display;
+}
+.header--1 {
+  direction: ltr;
+}
+.header-paragraph {
+  font-size: 26px;
+}
+.header-img {
+  height: 800px;
+}
+.section {
+  background-color: var(--asoop-color-5);
+}
+.div {
+  background-image: url("./../../image/20220905075006.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-color: var(--asoop-color-1) !important;
+  height: 400px;
+}
+@media screen and (max-width: 991px) {
+     .asoop-navbar-three > ul {
+       width: 35%;
+     
+   }
+}
+@media screen and (max-width: 767px) {
+     .asoop-navbar-three {
+       flex-direction: column;
+       max-height: 80px;
+       overflow: hidden;
+       padding: 10px;
+       height: unset;
+     
+   }
+     .asoop-navbar-three > ul {
+       width: 100%;
+       flex-direction: column;
+     
+   }
+     .asoop-navbar-three > ul > li {
+       margin: 10px auto;
+       text-align: center;
+     
+   }
+     .asoop-navbar-three > ul:first-child {
+       order: 3;
+     
+   }
+     .asoop-navbar-three > ul:last-child {
+       order: 4;
+     
+   }
+     .asoop-navbar-three > .logo {
+       order: 1;
+     
+   }
+     .asoop-navbar-three .asoop-navbar-three-bars {
+       display: flex;
+       font-size: 32px;
+     
+   }
+     .asoop-navbar-three.show {
+       max-height: 600px !important;
+     
+   }
+}

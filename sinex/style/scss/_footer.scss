@@ -1,0 +1,44 @@
+@media screen and (min-width: 1200px) {}
+@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 991px) {}
+@media screen and (max-width: 767px) {}
+.container { color: var(--asoop-color-0) ; }
+.img { height: 80px; background-color: rgb(255, 255, 255); }
+.font { color: var(--asoop-color-3) ; }
+.button { --color: var(--asoop-color-3) ; --hover: var(--asoop-color-4); }
+.ul a:hover { color: var(--asoop-color-3); }
+.ul li { margin-top: 20px; }
+.ul { font-size: 14px; }
+.ul a { color: var(--asoop-color-0); }
+.ul li { margin-top: 20px; }
+.ul { font-size: 14px; }
+.ul a { }
+.ul li:hover { color: var(--asoop-color-2)                        !important; }
+.ul li { margin-top: 20px; }
+.ul { font-size: 14px; }
+.ul a { }
+.ul li:hover { color: var(--asoop-color-2)                        !important; }
+.ul li { margin-top: 20px; }
+.ul { font-size: 14px; }
+.ul--1 a { color: var(--asoop-color-0); }
+.ul--1 a:hover { color: var(--asoop-color-3) ; }
+.ul--1 li { margin-right: 0px; margin-left: 0px; }
+.li { height: 50px; width: 50px; background-color: rgb(255, 255, 255); }
+.li { height: 50px; width: 50px; background-color: rgb(255, 255, 255); }
+.li { height: 50px; width: 50px; background-color: rgb(255, 255, 255); }
+.li { height: 50px; width: 50px; background-color: rgb(255, 255, 255); }
+.a { color: var(--asoop-color-1) ; }
+.a:hover { color: var(--asoop-color-2)                          !important; }
+.a { color: var(--asoop-color-1) ; }
+.a:hover { color: var(--asoop-color-2)                          !important; }
+.a { color: var(--asoop-color-1) ; }
+.a:hover { color: var(--asoop-color-2)                          !important; }
+.a { color: var(--asoop-color-1) ; }
+.a:hover { color: var(--asoop-color-2)                          !important; }
+.p { color: var(--asoop-color-1) ; font-size: 12px; }
+.ul--2 a:hover { color: var(--asoop-color-3) ; }
+.ul--2 a { color: rgb(188, 188, 188); }
+.ul--2 { font-size: 14px; }
+@media screen and (max-width: 575px) {}
+@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 767px) {}
