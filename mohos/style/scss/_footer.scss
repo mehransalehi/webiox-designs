@@ -1,0 +1,22 @@
+._131_section { background-color: var(--asoop-color-1) ; }
+@media screen and (min-width: 1200px) {}
+@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 991px) {}
+@media screen and (max-width: 767px) {  .ul--1 li { margin-top: 20px; }}
+.ul a { color: rgb(255, 255, 255); }
+.ul { font-size: 20px; }
+.ul li { margin-left: 8px; }
+.li { height: 50px; width: 50px; }
+.li--1 { height: 50px; width: 50px; background-color: rgba(189, 0, 255, 0.3); }
+.li--2 { height: 50px; width: 50px; background-color: rgb(197, 9, 114); }
+.li--3 { height: 50px; width: 50px; background-color: rgb(255, 0, 4); }
+.li--4 { height: 50px; width: 50px; background-color: rgb(255, 0, 74); }
+.ul--1 a { color: rgb(93, 93, 93); }
+.ul--1 a:hover { color: var(--asoop-color-0); }
+.p { color: var(--asoop-color-1) ; }
+.ul--2 li { margin-right: 10px; margin-left: 10px; }
+.ul--2 a { color: rgb(255, 255, 255); }
+.ul--2 a:hover { color: var(--asoop-color-0); }
+.p--1 { color: rgb(255, 255, 255); }
+.a { color: var(--asoop-color-0) ; }
+@media screen and (max-width: 575px) {}
