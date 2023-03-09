@@ -1,0 +1,45 @@
+/**!
+ * Asoop - Mehran Salehi 2018
+ * @copyright: Asoop Co
+ * @author: Asoop Co
+ * @version: 1.0
+ * @dependencies: $, $.fn.draggable, $.fn.droppable, $.fn.sortable, Bootstrap (optional), FontAwesome (optional)
+ */
+@media screen and (min-width: 576px) and (max-width: 767px){
+
+  .asoop-image-modal-content {
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width: 575px){
+
+  .asoop-image-modal-content {
+    width: 100%;
+  }
+
+}
+
+.asoop-img-modal{
+  cursor: pointer;
+}
+.asoop-image{
+  width: 100%;
+  height:100%;
+}
+
+/* Modal Content (Image) */
+.asoop-image-modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1000px;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.asoop-image-modal{
+  display:none;
+}

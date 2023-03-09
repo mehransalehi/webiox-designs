@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="visual"
+   viewBox="0 0 900 190"
+   width="900"
+   height="190"
+   version="1.1"
+   sodipodi:docname="wave-haikei (2).svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1558">
+      <feFlood
+         flood-opacity="0.0862745"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1548" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1550" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="10.929"
+         result="blur"
+         id="feGaussianBlur1552" />
+      <feOffset
+         dx="0"
+         dy="-8.2"
+         result="offset"
+         id="feOffset1554" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1556" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     id="namedview5"
+     showgrid="false"
+     inkscape:zoom="1.2311111"
+     inkscape:cx="384.46097"
+     inkscape:cy="295.82262"
+     inkscape:window-x="1080"
+     inkscape:window-y="222"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="visual" />
+  <path
+     d="M 0,123 225,112 450,86 675,112 900,29 V 191 H 675 450 225 0 Z"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:#e3a441;fill-opacity:1;fill-rule:nonzero;stroke-linecap:square;stroke-linejoin:bevel;filter:url(#filter1558)" />
+</svg>
