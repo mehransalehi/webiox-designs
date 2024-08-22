@@ -45,9 +45,15 @@ _____________
 _____________
 ![3](https://github.com/user-attachments/assets/85636c35-68a1-435b-b4f3-f5c851bc6563)
 _____________
-![2](https://github.com/user-attachments/assets/19bef512-a7eb-4129-b99c-dc3a5ae2044d)
+![screencapture-file-home-asoop-Desktop-Projects-theme-forset-1-template-index-html-2024-08-22-12_00_28](https://github.com/user-attachments/assets/4c71f259-4584-4b60-b5ca-28659f59d18a)
+_____________
+![8](https://github.com/user-attachments/assets/e6a22d41-d5cf-4248-bf26-1c100b871239)
+
+![2](https://github.com/user-attachments/assets/19bef512-a7eb-4129-b99c-dc3a5ae2044d)![7](https://github.com/user-attachments/assets/8f1e247c-eac9-403a-a878-9f391aa7dfc3)
 _____________
 ![1](https://github.com/user-attachments/assets/0de24a81-a600-4999-9cf2-16a34da36cda)
+_____________
+![6](https://github.com/user-attachments/assets/9e85063b-d1e7-4b62-a4df-f28a0c064c71)
 
 ## 📧 Contact
 
