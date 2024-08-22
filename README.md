@@ -38,10 +38,15 @@ Feel free to fork this repository, make improvements, and submit a pull request.
 
 ## Screen Shots
 ![4](https://github.com/user-attachments/assets/971cf22b-ff90-4bd6-98f7-c47372d9266d)
+_____________
 ![5](https://github.com/user-attachments/assets/e2339345-aebe-4a0f-8569-48b2da946b44)
+_____________
 ![02_thumbnail](https://github.com/user-attachments/assets/56d9e3dc-ae7d-4ba4-bce6-a39418f9cf1a)
+_____________
 ![3](https://github.com/user-attachments/assets/85636c35-68a1-435b-b4f3-f5c851bc6563)
+_____________
 ![2](https://github.com/user-attachments/assets/19bef512-a7eb-4129-b99c-dc3a5ae2044d)
+_____________
 ![1](https://github.com/user-attachments/assets/0de24a81-a600-4999-9cf2-16a34da36cda)
 
 ## 📧 Contact
